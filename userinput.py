@@ -1,0 +1,7 @@
+fname = input("Input your First Name : ")
+lname = input("Input your Last Name : ")
+print("Enter your date of birth:")
+month = input("Month? ")
+day = input("Day? ")
+year = input("Year? ")
+print("{} {} was born on {} {}, {}".format(fname,lname,month,day,year))
